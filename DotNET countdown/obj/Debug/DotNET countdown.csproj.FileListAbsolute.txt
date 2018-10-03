@@ -9,3 +9,9 @@ c:\users\abdirahiim\documents\visual studio 2012\Projects\DotNET countdown\DotNE
 C:\Users\Abdirahiim\Documents\Visual Studio 2012\Projects\DotNET Countdown Timer\DotNET countdown\bin\Debug\DotNET countdown.exe.config
 C:\Users\Abdirahiim\Documents\Visual Studio 2012\Projects\DotNET Countdown Timer\DotNET countdown\obj\Debug\DotNET countdown.exe
 C:\Users\Abdirahiim\Documents\Visual Studio 2012\Projects\DotNET Countdown Timer\DotNET countdown\obj\Debug\DotNET countdown.pdb
+C:\Users\Abdirahiim\Documents\Visual Studio 2012\Projects\DotNET Countdown Timer\DotNET countdown\bin\Debug\DotNET countdown.exe
+C:\Users\Abdirahiim\Documents\Visual Studio 2012\Projects\DotNET Countdown Timer\DotNET countdown\bin\Debug\DotNET countdown.pdb
+C:\Users\Abdirahiim\Documents\Visual Studio 2012\Projects\DotNET Countdown Timer\DotNET countdown\obj\Debug\DotNET countdown.csprojResolveAssemblyReference.cache
+C:\Users\Abdirahiim\Documents\Visual Studio 2012\Projects\DotNET Countdown Timer\DotNET countdown\obj\Debug\DotNET_countdown.Form1.resources
+C:\Users\Abdirahiim\Documents\Visual Studio 2012\Projects\DotNET Countdown Timer\DotNET countdown\obj\Debug\DotNET_countdown.Properties.Resources.resources
+C:\Users\Abdirahiim\Documents\Visual Studio 2012\Projects\DotNET Countdown Timer\DotNET countdown\obj\Debug\DotNET countdown.csproj.GenerateResource.Cache
