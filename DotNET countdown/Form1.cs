@@ -22,16 +22,16 @@ namespace DotNET_countdown
             panel1.BackColor = Color.FromArgb(188, 0, 0, 0);//sets the transparency rate for the panel(RGB Color)
         }
        
-        DateTime endTime = new DateTime(2018, 10, 07, 6, 30, 0); //date & time of the event
+        DateTime EventDate = new DateTime(2018, 10, 07, 6, 30, 0); //date & time of the event
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            TimeSpan ts = endTime.Subtract(DateTime.Now);//sets a variable to substract the current date & time with the one provided in the variable endtime
+            TimeSpan TL = EventDate.Subtract(DateTime.Now);//declares a variable named TL to substract the current date & time with the one provided in the variable EventDate
             
-            label1.Text = ts.Days.ToString() + " Days";
-            label2.Text = ts.Hours.ToString() + " Hours";
-            label3.Text = ts.Minutes.ToString() + " Minutes";
-            label4.Text = ts.Seconds.ToString() + " Seconds";
+            label1.Text = TL.Days.ToString() + " Days";
+            label2.Text = TL.Hours.ToString() + " Hours";
+            label3.Text = TL.Minutes.ToString() + " Minutes";
+            label4.Text = TL.Seconds.ToString() + " Seconds";
 
             //alarms the user if there's 5 hours left
             if (label1.Text == "0 Days" && label2.Text == "5 Hours" && label3.Text == "0 Minutes" && label4.Text == "0 Seconds")
