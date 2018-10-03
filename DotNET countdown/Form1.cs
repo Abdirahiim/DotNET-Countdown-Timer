@@ -36,19 +36,20 @@ namespace DotNET_countdown
             //alarms the user if there's 5 hours left
             if (label1.Text == "0 Days" && label2.Text == "5 Hours" && label3.Text == "0 Minutes" && label4.Text == "0 Seconds")
             {
-                MessageBox.Show("ONLY 5 HOURS LEFT UNTIL THE CONFERENCE BEGIN!", "URGENT!");
+                MessageBox.Show("ONLY 5 HOURS LEFT UNTIL THE CONFERENCE BEGINS!", "URGENT!");
             }
 
             //alarms the user if there's less than 1 day left
-            if (label1.Text == "0 Days")
+            else if (label1.Text == "0 Days")
             {
-                MessageBox.Show("LESS THAN 1 DAY LEFT UNTIL THE CONFERENCE BEGIN!", "URGENT!");
+                MessageBox.Show("LESS THAN 1 DAY LEFT UNTIL THE CONFERENCE BEGINS!", "URGENT!");
             }
            //alarms the user if there's 30 mins left
-            if (label1.Text == "0 Days" && label2.Text == "0 Hours" && label3.Text == "30 Minutes" && label4.Text == "0 Seconds")
+            else if (label1.Text == "0 Days" && label2.Text == "0 Hours" && label3.Text == "30 Minutes" && label4.Text == "0 Seconds")
             {
-                MessageBox.Show("ONLY 30 MINS LEFT UNTIL THE CONFERENCE BEGIN!", "URGENT!");
+                MessageBox.Show("ONLY 30 MINS LEFT UNTIL THE CONFERENCE BEGINS!", "URGENT!");
             }
+           
         }
 
         private void label5_Click(object sender, EventArgs e)
